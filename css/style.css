@@ -1,0 +1,87 @@
+body {
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1{
+      text-align: center;
+      color: red;
+  }
+  .insta{
+      float: right;
+      margin-top: -60px;
+  }
+.snap{
+    float: right;
+    margin-right: 60px;
+    margin-top: -60px;
+}
+.face{
+    float: right;
+    margin-right: 120px;
+    margin-top: -60px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden ;
+    background-color: rgb(0, 0, 0);
+}
+li{
+    float: left;
+    text-align: center;
+  
+}
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px 25px ;
+    font-size: 25px;
+    text-decoration : none;
+}
+
+li a:hover{
+    color: yellow;
+}
+
+a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.foto{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+p{
+    color: blackds;
+    font-size: 20px;
+}
+h2{
+    color:  yellow;
+    font-size: 40px;
+}
+.article{
+    margin-top: -450px;
+    margin-left: 380px;
+    width: 650px;
+}
+.hr{
+    margin-top: 200px;
+}
+.img-2{
+    float: right;
+    border: 2px solid red;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+h3{
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
+  
