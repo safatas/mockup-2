@@ -44,7 +44,7 @@ li a {
 }
 
 li a:hover{
-    color: red;
+    color: yellow;
 }
 
 a{
@@ -61,7 +61,7 @@ p{
     font-size: 20px;
 }
 h2{
-    color:  red;
+    color:  yellow;
     font-size: 40px;
 }
 .article{
@@ -92,7 +92,6 @@ h3{
     border: 1px solid black;
     width: 30%;
     height: 60px;
-    margin-left: 5%;
 }
 .mail{
     background-color: white;
@@ -100,7 +99,6 @@ h3{
     width: 30%;
     height: 60px;
     margin-top: 1%;
-    margin-left: 5%;
 }
 .bricht{
     background-color: white;
@@ -108,23 +106,16 @@ h3{
     width: 30%;
     height: 110px;
     margin-top: 1%;
-    margin-left: 5%;
 }
 ol li{
     list-style-type: none;
 }
 .gegevens{
     float: right;
-    margin-top: -15%;
+    margin-top: -20%;
     margin-right: 10%;
     font-size: 25px;
 }
 .footer{
     text-align: center;
-<<<<<<< HEAD
-=======
-}
-h4{
-    margin-left: 5%;
->>>>>>> 20b8e875a0dec8978f569e7981587f69eb2e42fa
 }
