@@ -119,3 +119,43 @@ ol li{
 .footer{
     text-align: center;
 }
+.projectpagina {
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#button-1{
+    margin-top: 10%;
+    margin-left: 25%;
+}
+.project-2 {
+    float: left;
+    margin-top: 10%;
+    margin-left: -13%;
+}
+
+#button-2 {
+    float: left;
+    margin-top: 13%;
+    margin-left: 2%;
+}
+.project-3 {
+   float: right;
+   margin-top: -7%;
+   margin-right: 7%;
+}
+#button-3 {
+    float: right;
+    margin-right: 2%;
+    margin-top: -1%;
+}
+.project-4 {
+    float: right;
+    margin-top: 10%;
+    margin-right: -18.5%;
+}
+#button-4 {
+    float: right;
+    margin-top: 13%;
+    margin-right: -3%;
+}
