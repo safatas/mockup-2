@@ -27,21 +27,20 @@
         <li><a href="contacten.html">Contact</a></li>
     </ul>
     </nav>
-    <h1>Welkom op mij contact pagina</h1>
-    <div class="wrappper">
-        <h4>Vie hier kunt u in contact komen met mij</h4>
-        <div class="buttens">
-            Naam
-        </div>
-        <div class="mail">
-            Mail
-        </div>
-        <div class="bricht">
-            Bericht
-        </div>
-  </div>
-<div class="gegevens">
-    <h4>Hier is al mijn sociale media accounts</h4>
+    <div class="container">
+        <form action="/action_page.php">
+
+          <input type="text" id="fname" name="firstname" placeholder="Voor Naam..">
+          <input type="text" id="lname" name="lastname" placeholder="Achter Naam..">
+          <select id="country" name="country">
+            <option value="australia">Nederland</option>
+            <option value="canada">Turkije</option>
+            <option value="usa">Duitsland</option>
+          </select>
+          <textarea id="subject" name="subject" placeholder="Schrijf een bricht.." style="height:200px"></textarea>
+        </form>
+      </div>
+      <div class="gegevens">
     <ol>
         <li>Mijn mail = 302710276@student.rocmindriaan.nl</li><br>
         <li>Mijn nummer = 06 12345678</li><br>
