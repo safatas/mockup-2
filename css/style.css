@@ -96,6 +96,8 @@ ol li{
     margin-top: 3%;
     margin-right: 30%;
     font-size: 30px;
+    background-color: white;
+    width: 50%;
 }
 .footer{
     text-align: center;
@@ -107,17 +109,17 @@ ol li{
 }
 #button-1{
     margin-top: 10%;
-    margin-left: 25%;
+    margin-left: 29%;
 }
 .project-2 {
     float: left;
-    margin-top: 10%;
-    margin-left: -13%;
+    margin-top: 15%;
+    margin-left: -17%;
 }
 
 #button-2 {
     float: left;
-    margin-top: 13%;
+    margin-top: 20%;
     margin-left: 2%;
 }
 .project-3 {
@@ -132,12 +134,12 @@ ol li{
 }
 .project-4 {
     float: right;
-    margin-top: 10%;
-    margin-right: -18.5%;
+    margin-top: 15%;
+    margin-right: -23%;
 }
 #button-4 {
     float: right;
-    margin-top: 13%;
+    margin-top: 20%;
     margin-right: -3%;
 }
 
