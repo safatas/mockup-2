@@ -173,3 +173,12 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+.overmijimg{
+   float: right;
+    margin-right: 30%;
+    margin-top: 1%;
+}
+.safa{
+    float: left;
+    margin-top: 2%;
+}
