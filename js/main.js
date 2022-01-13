@@ -1,17 +1,16 @@
-// console.log =('file loaded')
+console.log('main.loaded');
 
-// alert ('Welkom op www.SafaTas.nl')
+ const rijBewijs= prompt('Waneer kan je je autorijbewijs halen ?')
 
-// const result = confirm ( 'Wilt u cookies accepteren ?');
-// if (result) {
-//     alert ('U heeft de cookies geaccepteerd.')
-// } else {
-//     alert ( 'U heeft de cookies niet geaccepteerd.')
-// }
-// alert ('Nu gaat u de portfolio pagina van Safa Tas zien.')
+if (rijBewijs >=0 && rijBewijs < 16) {
+    document.body.innerHTML += `Je kan nog niet beginnen met je rijbewijs`;
+} else if (rijBewijs == "16") {
+    document.body.innerHTML += `Je kan beginnen met je theorie en je kan beginnen met lessen`;
+} else if (rijBewijs == "17") {
+    document.body.innerHTML += `Je mag je praktijk examen doen maar nogniet rijden als je het haalt.`;
+} else if (rijBewijs == "18") {
+    document.body.innerHTML  += `Je kan nu rijden als je je rijbewijs heb gehaald .`
+} else if (rijBewijs >= 18 ) {
+    document.body.innerHTML += `Je kan je rijbewijs halen waneer je wilt.`
+}
 
-// const myName = ('Safa Tas')
-
-// let  total;
-// total = 0;
-// total = total + 50;
